@@ -9,7 +9,7 @@ AutoHotKey Scripts
 | Next       | `Alt`+`F3` |
 
 ## Volume Controls
-| Action      | Shortcut    |
-|-------------|-------------|
-| Volume Up   | Pause       |
-| Volume Down | Scroll Lock |
+| Action      | Shortcut      |
+|-------------|---------------|
+| Volume Up   | `Pause`       |
+| Volume Down | `Scroll Lock` |
