@@ -1,5 +1,5 @@
 # ahk-scripts
-AutoHotKey Scripts
+AutoHotKey Scripts for various utilities.
 
 ## Music Controls
 | Action     | Shortcut   | Description                         |
