@@ -1,12 +1,12 @@
 #SingleInstance Force
 
-;next song
-!F2::Send {Media_Next}
+;previous song
+!F2::Send {Media_Prev}
 return
 
 
-;previous song
-!F3::Send {Media_Prev}
+;next song
+!F3::Send {Media_Next}
 return
 
 
