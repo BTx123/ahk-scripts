@@ -1,13 +1,13 @@
 #SingleInstance Force
 
-;ScrollLock always turned off
+; ScrollLock always turned off
 SetScrollLockState, AlwaysOff
 
-;play/pause
+; Play/pause
 !PrintScreen::Send {Media_Play_Pause}
 
-;previous
+; Previous
 !ScrollLock::Send {Media_Prev}
 
-;next
+; Next
 !Pause::Send {Media_Next}

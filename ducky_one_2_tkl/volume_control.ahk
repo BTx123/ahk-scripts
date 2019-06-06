@@ -1,13 +1,13 @@
 #SingleInstance Force
 
-;ScrollLock always turned off
+; ScrollLock always turned off
 SetScrollLockState, AlwaysOff
 
-;mute
+; Mute
 PrintScreen::Send {Volume_Mute}
 
-;volume down
+; Volume down
 ScrollLock::Send {Volume_Down}
 
-;volume up
+; Volume up
 Pause::Send {Volume_Up}

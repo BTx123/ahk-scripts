@@ -1,10 +1,10 @@
 #SingleInstance Force
 
-;play/pause
+; Play/pause
 !F1::Send {Media_Play_Pause}
 
-;previous
+; Previous
 !F2::Send {Media_Prev}
 
-;next
+; Next
 !F3::Send {Media_Next}
