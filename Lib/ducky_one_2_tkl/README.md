@@ -1,19 +1,25 @@
 # AutoHotKey Scripts for Duck One 2 TKL
 
 ## Mouse
-| Action      | Shortcut   |
-|:------------|------------|
-| Right Click | `Alt`+`F1` |
+| Action      | Shortcut | Description                                          |
+|:------------|----------|:-----------------------------------------------------|
+| Right Click | `Insert` | Right click at caret (text insertion point) position |
 
 ## Music
-| Action     | Shortcut   |
-|:-----------|------------|
-| Play/Pause | `Alt`+`F1` |
-| Previous   | `Alt`+`F2` |
-| Next       | `Alt`+`F3` |
+| Action     | Shortcut       | Description                        |
+|:-----------|----------------|:-----------------------------------|
+| Play/Pause | `Ctrl`+`PrtSc` | Toggle play/pause of current media |
+| Previous   | `Ctrl`+`ScrLk` | Go to previous media item          |
+| Next       | `Ctrl`+`Pause` | Go to next media item              |
+
+## Power
+| Action | Shortcut   | Description         |
+|:-------|------------|:--------------------|
+| Sleep  | `Win`+`F1` | Put system to sleep |
 
 ## Volume
-| Action      | Shortcut    |
-|:------------|:------------|
-| Volume Up   | Pause       |
-| Volume Down | Scroll Lock |
+| Action      | Shortcut | Description                                           |
+|:------------|:---------|:------------------------------------------------------|
+| Mute        | `PrtSc`  | Toggle volume mute                                    |
+| Volume Down | `ScrLk`  | Increase volume (number of steps defaulted to system) |
+| Volume Up   | `Pause`  | Increase volume (number of steps defaulted to system) |
