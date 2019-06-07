@@ -4,10 +4,10 @@
 SetScrollLockState, AlwaysOff
 
 ; Play/pause
-!PrintScreen::Send {Media_Play_Pause}
+^PrintScreen::Send {Media_Play_Pause}
 
 ; Previous
-!ScrollLock::Send {Media_Prev}
+^ScrollLock::Send {Media_Prev}
 
 ; Next
-!Pause::Send {Media_Next}
+^Pause::Send {Media_Next}
