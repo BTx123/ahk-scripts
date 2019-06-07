@@ -1,6 +1,6 @@
 #SingleInstance Force
 
-#Include ../lib/easy_window_drag.ahk
+#Include %A_ScriptDir%
 #Include music_control.ahk
 #Include volume_control.ahk
 #Include sleep.ahk
