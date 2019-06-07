@@ -1,6 +1,7 @@
 #SingleInstance Force
 
 #Include %A_ScriptDir%
-#Include music_control.ahk
-#Include volume_control.ahk
-#Include sleep.ahk
+#Include mouse.ahk
+#Include music.ahk
+#Include power.ahk
+#Include volume.ahk
