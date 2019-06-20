@@ -10,4 +10,5 @@ SetScrollLockState, AlwaysOff
 ^ScrollLock::Send {Media_Prev}
 
 ; Next
-^Pause::Send {Media_Next}
+; ^Pause::Send {Media_Next}
+^CtrlBreak::Send {Media_Next}
