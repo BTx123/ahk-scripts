@@ -9,14 +9,32 @@ OK()
 
     ; Keyboard specific hotkeys
     global KeyboardChoice
-    Params .= Format("Lib/{}/main.ahk", KeyboardChoice)
-    Run "autohotkey.exe" %Params%
+	if (KeyboardChoice != "none")
+	{
+		Params .= Format("Lib/{}/main.ahk", KeyboardChoice)
+		Run "autohotkey.exe" %Params%
+	}
 
     ExitApp
 }
 
+Cancel()
+{
+	Gui, Submit
+	ExitApp
+}
+
 Gui, New
-Gui, Add, Text,, Select Keyboard:
-Gui, Add, DropDownList, vKeyboardChoice Choose1, dell_wired_KB216p|ducky_one_2_tkl
-Gui, Add, Button, Default gOK, OK
-Gui, Show
+Gui, Add, GroupBox, x10 y10 w330 h50, Settings
+Gui, Add, Button, gCancel x10 y110 w100 h30, Cancel
+Gui, Add, Button, gOK x240 y110 w100 h30, OK
+Gui, Add, Text, x20 y30 w100 h20, Select Keyboard:
+Gui, Add, DropDownList, vKeyboardChoice x130 y30 w210 Choose1, none|dell_wired_KB216p|ducky_one_2_tkl
+Gui, Show, h150 w350, load.ahk
+Return
+
+GuiClose:
+ExitApp
+
+GuiEscape:
+ExitApp
