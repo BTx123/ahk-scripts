@@ -1,10 +1,5 @@
 # AutoHotKey Scripts for Duck One 2 TKL
 
-## Mouse
-| Action      | Shortcut | Description                                          |
-|:------------|----------|:-----------------------------------------------------|
-| Right Click | `Insert` | Right click at caret (text insertion point) position |
-
 ## Music
 | Action     | Shortcut       | Description                        |
 |:-----------|----------------|:-----------------------------------|
