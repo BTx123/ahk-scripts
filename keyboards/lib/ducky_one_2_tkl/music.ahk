@@ -10,5 +10,5 @@ SetScrollLockState, AlwaysOff
 ^ScrollLock::Send {Media_Prev}
 
 ; Next
-; ^Pause::Send {Media_Next}
-^CtrlBreak::Send {Media_Next}
+^CtrlBreak::Send {Media_Next} ; Ctrl+Pause hotkey will never work because
+                              ; it will physicaly produce the Ctrl+ATTN key
