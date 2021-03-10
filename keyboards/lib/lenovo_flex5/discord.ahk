@@ -1,7 +1,7 @@
 #SingleInstance Force
 
-; Mute
-PrintScreen::Send {Ctrl down}{Shift down}M{Shift up}{Ctrl up}
+; Mute Ctrl+Alt+Shift+M
+PrintScreen::Send ^!+m
 
-; Deafen
-Insert::Send {Ctrl down}{Shift down}D{Shift up}{Ctrl up}
+; Deafen Ctrl+Alt+Shift+D
+Insert::Send ^!+d
