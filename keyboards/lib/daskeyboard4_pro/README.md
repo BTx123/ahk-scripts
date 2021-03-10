@@ -1,4 +1,4 @@
-# AutoHotKey Scripts for Duck One 2 TKL
+# AutoHotKey Scripts for Ducky One 2 TKL
 
 ## Music
 | Action     | Shortcut       | Description                        |
