@@ -9,19 +9,19 @@ OK()
 
     ; Keyboard specific hotkeys
     global KeyboardChoice
-	if (KeyboardChoice != "none")
-	{
-		Params .= Format("lib/{}/main.ahk", KeyboardChoice)
-		Run "autohotkey.exe" %Params%
-	}
+    if (KeyboardChoice != "none")
+    {
+        Params .= Format("lib/{}/main.ahk", KeyboardChoice)
+        Run "autohotkey.exe" %Params%
+    }
 
     ExitApp
 }
 
 Cancel()
 {
-	Gui, Submit
-	ExitApp
+    Gui, Submit
+    ExitApp
 }
 
 Gui, New
