@@ -1,3 +1,5 @@
+#Requires AutoHotkey >=1.1.36 <2
+
 #SingleInstance Force
 
 ; Play/pause
